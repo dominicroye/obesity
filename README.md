@@ -1,4 +1,4 @@
-Adult obesity in the World
+﻿Adult obesity in the World
 ================
 Dominic Royé
 02/09/2018
@@ -10,13 +10,11 @@ R Code for the heatmap published at [Twitter](https://twitter.com/dr_xeo/status/
 
 Author: Dominic Royé (@dr\_xeo) | <https://dominicroye.github.io/en/>
 
-<blockquote class="twitter-tweet" data-lang="es">
-<p lang="en" dir="ltr">
-Evolution of adult <a href="https://twitter.com/hashtag/obesity?src=hash&amp;ref_src=twsrc%5Etfw">\#obesity</a> in <a href="https://twitter.com/hashtag/Europe?src=hash&amp;ref_src=twsrc%5Etfw">\#Europe</a> between 1975 and 2016. <a href="https://twitter.com/hashtag/publichealth?src=hash&amp;ref_src=twsrc%5Etfw">\#publichealth</a> <a href="https://twitter.com/WHO_Europe?ref_src=twsrc%5Etfw">@WHO\_Europe</a> <a href="https://twitter.com/EU_Health?ref_src=twsrc%5Etfw">@EU\_Health</a> <a href="https://twitter.com/JulioBasulto_DN?ref_src=twsrc%5Etfw">@JulioBasulto\_DN</a> <a href="https://t.co/tsWcwxhQCX">pic.twitter.com/tsWcwxhQCX</a>
-</p>
-— Dominic Royé (@dr\_xeo) <a href="https://twitter.com/dr_xeo/status/1034016258616950784?ref_src=twsrc%5Etfw">27 de agosto de 2018</a>
-</blockquote>
+<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">Evolution of adult <a href="https://twitter.com/hashtag/obesity?src=hash&amp;ref_src=twsrc%5Etfw">#obesity</a> in <a href="https://twitter.com/hashtag/Europe?src=hash&amp;ref_src=twsrc%5Etfw">#Europe</a> between 1975 and 2016. <a href="https://twitter.com/hashtag/publichealth?src=hash&amp;ref_src=twsrc%5Etfw">#publichealth</a> <a href="https://twitter.com/WHO_Europe?ref_src=twsrc%5Etfw">@WHO_Europe</a> <a href="https://twitter.com/EU_Health?ref_src=twsrc%5Etfw">@EU_Health</a> <a href="https://twitter.com/JulioBasulto_DN?ref_src=twsrc%5Etfw">@JulioBasulto_DN</a> <a href="https://t.co/tsWcwxhQCX">pic.twitter.com/tsWcwxhQCX</a></p>&mdash; Dominic Royé (@dr_xeo) <a href="https://twitter.com/dr_xeo/status/1034016258616950784?ref_src=twsrc%5Etfw">27 de agosto de 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
 ``` r
 ### libraries ###
 library(tidyverse)
@@ -78,7 +76,7 @@ df_europe %>% mutate(name=factor(name,rev(ord_2016)))%>%
         theme_heatmap
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-1-1.png" width="100%" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-1-1.png" width="100%"/>
 
 Data source
 -----------
